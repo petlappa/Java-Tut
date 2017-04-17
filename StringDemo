@@ -1,0 +1,23 @@
+public class StringDemo {
+
+   public static void main(String args[]) {
+	String s1="Eka string";
+	String s2, s3;
+	Double r;
+
+      String palindrome = "Katja vie koirat ulos";
+      int len = palindrome.length();
+      System.out.println( "String Length is : " + len );
+      s2="Katja";
+      int lenS1 = s1.length();
+      int lenS2 = s2.length();
+      System.out.println("1." + s1  + "\n2." + s2);
+      System.out.println("length 1:"+lenS1+"\nlength 2:" + lenS2);
+      s3 = palindrome+" ".concat(s2);
+      System.out.println( "\nString3 is palindrome conat with s2: "+s3);
+      r = Math.random();
+      System.out.println("r    = " + r);
+      System.out.println("func = "+Math.random());
+   }
+}
+
