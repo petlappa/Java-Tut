@@ -7,6 +7,7 @@ public class ReadConsole {
       FileOutputStream out = null;
 
       try {
+         System.out.println("//// ReadConsole test ////");
          cin = new InputStreamReader(System.in);
          out = new FileOutputStream("output.txt");
          System.out.println("Enter characters, 'q' to quit. Content is saved in output.txt");
@@ -25,7 +26,7 @@ public class ReadConsole {
          }
       }
       int d;
-      FileInputStream cin2 = null;
+      FileInputStream cin2;
       cin2 = new FileInputStream("output.txt");
       System.out.println("\n  The output.txt files content is following: ");
       while ((d = cin2.read()) != -1) {
