@@ -1,4 +1,7 @@
+// Create a branch and a pull request and merge
+
 import java.io.*;
+
 
 public class ReadConsole {
 
@@ -7,7 +10,7 @@ public class ReadConsole {
       FileOutputStream out = null;
 
       try {
-         System.out.println("//// ReadConsole test ////");
+         System.out.println("//// ReadConsole test with PR ////");
          cin = new InputStreamReader(System.in);
          out = new FileOutputStream("output.txt");
          System.out.println("Enter characters, 'q' to quit. Content is saved in output.txt");
